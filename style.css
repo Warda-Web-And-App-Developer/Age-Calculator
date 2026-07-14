@@ -1,0 +1,79 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Noto Serif Display", serif;
+}
+.container{
+  border: 20px rgb(197, 253, 218) double;
+  box-shadow: 30px 20px 30px rgb(173, 171, 171);
+  padding: 40px;
+  width: 400px;
+  background-color: pink;
+}
+.box{
+  border: 10px rgb(197, 253, 218) dotted;
+  text-align: center;
+  background-color: pink;
+}
+.head2{
+  color: rgb(243, 134, 152);
+  font-family: "Stack Sans Notch", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 45px;
+  text-shadow: 0px 4px 0px rgb(151, 16, 38);
+}
+.head1{
+  color: rgb(122, 236, 164);
+  font-family: "Stack Sans Notch", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 45px;
+  position: relative;
+  bottom: 37px;
+  left: 40px;
+  text-shadow: 0px 4px 0px rgb(12, 70, 37);
+}
+h2{
+  color: rgb(243, 134, 152);
+  text-shadow: 1px 0px 1px rgb(151, 16, 38);
+}
+h3{
+  color: rgb(243, 134, 152);
+  text-shadow: 1px 0px 1px rgb(151, 16, 38);
+  }
+#input{
+  width: 280px;
+  height: 30px;
+  background-color: rgb(197, 253, 218);
+  color: rgb(189, 7, 38);
+  border: 1px rgb(189, 7, 38) solid;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 4px 2px 0px rgb(87, 4, 18);
+}
+#input:hover{
+  background-color: rgb(243, 134, 152);
+  color: rgb(201, 249, 219);
+  border: 1px rgb(203, 246, 219) solid;
+}
+button{
+  border: 1px rgb(189, 7, 38) solid;
+  background-color: rgb(197, 253, 218);
+  color: rgb(189, 7, 38);
+  width: 120px;
+  height: 30px;
+  font-size: 16px;
+font-weight: bold;
+border-radius: 5px;
+ box-shadow: 4px 2px 0px rgb(87, 4, 18);
+
+}
+button:hover{
+  background-color: rgb(243, 134, 152);
+  color: rgb(201, 249, 219);
+  border: 1px rgb(203, 246, 219) solid;
+}
